@@ -11,7 +11,7 @@ export class AppComponent {
 
   constructor(private electronService: ElectronService) { }
 
-  public buttonClicked() {
+  buttonClicked() {
     if (this.electronService.isElectronApp) {
       this.electronService.remote.dialog.showOpenDialog({ properties: ['openFile', 'openDirectory', 'multiSelections'] });
     }

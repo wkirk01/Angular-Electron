@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { NgxElectronModule } from 'ngx-electron';
 
 import { AppComponent } from './app.component';
-
 @NgModule({
   declarations: [
     AppComponent
